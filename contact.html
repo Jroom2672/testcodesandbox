@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>The Argo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu">
+        <img src="scr/king.png" alt="Logo" class="logo" width="70" />
+
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="royal-family.html">Royal Family</a></li>
+          <li class="nav-item"><a href="assets.html">Royal Assets</a></li>
+          <li class="nav-item" id="active">
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="contact">
+      <h2>Contact the Royal Kingdom</h2>
+      <div class="form">
+        <form id="contactForm">
+          <label for="name">Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            class="form-size"
+            name="name"
+            value="Genièvre"
+          />
+          <br />
+
+          <label for="email">Email:</label><br />
+          <input
+            type="text"
+            id="email"
+            class="form-size"
+            name="email"
+            value="genievre-alablanchefesse@aol.fr"
+          />
+          <br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" class="form-size" name="message" rows="10">
+          </textarea
+          ><br /><br />
+
+          <label for="file">Attach file:</label><br />
+          <input type="file" id="file" />
+          <br />
+          <br />
+
+          <input type="submit" class="submit-form" value="Submit" />
+        </form>
+
+        <script src="script.js"></script>
+      </div>
+    </section>
+  </body>
+</html>

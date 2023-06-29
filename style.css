@@ -1,0 +1,133 @@
+body {
+  background-image: url("scr/background.jpg");
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #d1851c;
+  text-shadow: 1px 1px #333;
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+h2 {
+  color: rgb(2, 39, 39);
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  height: 60px;
+  padding: 0px;
+  background-image: url("scr/Elegant_Background-9.jpg");
+  background-position: cover;
+  background-size: 120%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+}
+
+.nav-menu {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item {
+  min-width: 50px;
+  max-width: 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  /*border: solid black 2px;*/
+}
+
+#active.nav-item {
+  border-bottom: solid black 5px;
+}
+
+/*Unvisited page*/
+a {
+  color: bisque;
+}
+
+/*Unvisited page*/
+a:visited {
+  color: #e8940c;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.menu {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home {
+  height: 400px;
+  background-image: url("scr/sea.jpg");
+  background-size: cover;
+}
+
+.flex-family {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#assets table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#assets table,
+th,
+tr,
+td {
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#assets th {
+  background-color: #ef970a;
+}
+
+.color td {
+  background-color: #0074d936;
+}
+
+td {
+  width: 200px;
+}
+
+.form {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.form-size {
+  width: 100%;
+}
+
+input[type="submit"] {
+  float: right;
+  background: rgb(19, 104, 129);
+  border: none;
+  padding: 5px 10px;
+}
